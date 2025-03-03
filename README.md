@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This fork removes the remark-math extension to work around [multiple vulnerabilities](https://github.com/KaTeX/KaTeX/security) with the Katex library.
+> We don't need the math formatting functionality so we've opted to remove the dependency entirely rather than attempt to upgrade it.
+
 # Martian: Markdown to Notion Parser
 
 Convert Markdown and GitHub Flavoured Markdown to Notion API Blocks and RichText.
@@ -338,11 +342,8 @@ Error: Unsupported markdown element: {"type":"heading","depth":1,"children":[{"t
 </pre>
 </details>
 
-
-
 ---
 
 Built with 💙 by the team behind [Fabric](https://tryfabric.com).
 
 <img src="https://static.scarf.sh/a.png?x-pxid=79ae4e0a-7e48-4965-8a83-808c009aa47a" />
-
