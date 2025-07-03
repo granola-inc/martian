@@ -11,10 +11,7 @@
     "clean": "gts clean",
     "precompile": "ts-node scripts/languageMap.ts",
     "compile": "tsc",
-    "fix": "gts fix",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "posttest": "npm run lint"
+    "fix": "gts fix"
   },
   "keywords": [
     "markdown",
